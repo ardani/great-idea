@@ -179,7 +179,6 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         TCG\Voyager\VoyagerServiceProvider::class,
-        CbCaio\ImgAttacher\Providers\ImgAttacherServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
         PhpConsole\Laravel\ServiceProvider::class,
         OwenIt\Auditing\AuditingServiceProvider::class,
@@ -188,7 +187,8 @@ return [
         EloquentFilter\ServiceProvider::class,
         Hootlex\Moderation\ModerationServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
-        TomLingham\Searchy\SearchyServiceProvider::class
+        TomLingham\Searchy\SearchyServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
     ],
 
     /*
@@ -240,8 +240,8 @@ return [
         // library third party
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'MediaUploader' => Plank\Mediable\MediaUploaderFacade::class,
-        'Searchy' => TomLingham\Searchy\Facades\Searchy::class
-
+        'Searchy' => TomLingham\Searchy\Facades\Searchy::class,
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class
     ],
 
 ];

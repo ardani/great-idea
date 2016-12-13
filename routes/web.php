@@ -16,9 +16,14 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+// for user already logged
+Route::group(['middleware' => 'auth'], function () {
+    
+});
 
-Route::get('/home', 'HomeController@index');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+//for ajax request
+Route::group(['prefix' => 'ajax'], function () {
+
+});
