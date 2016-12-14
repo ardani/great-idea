@@ -21,4 +21,4 @@ this project build with :
 2. cp `.env.example` to `.env` fill DB_DATABASE, DB_USERNAME, DB_PASSWORD, APP_URL
 3. import `idea.sql` in root folder
 4. make sure folder `storage` and `bootstrap/cache` have chmod 755
-5. dashboard admin `domain.com/admin` with username `admin` and password `admin`
+5. dashboard admin `domain.com/admin` with username `admin@admin` and password `admin`
