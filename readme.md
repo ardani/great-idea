@@ -1,5 +1,7 @@
 ## Idea Project
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ardani/great-idea.svg)](https://greenkeeper.io/)
+
 this project build with :
 
 - [Laravel 5.3](https://laravel.com/docs).
